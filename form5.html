@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 5</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="#">
+     
+    <label for="userid">User ID :</label>
+    <input type="text" id="userid" name="userid" size="40" maxlength="12" minlength="5" required><br><br>
+
+    <label for="password">Password :</label>
+    <input type="password" id="password" name="password" size="40" maxlength="12" minlength="7" required><br><br>
+
+    <label for="name">Name :</label>
+    <input type="text" id="name" name="name" size="40" required><br><br>
+
+    <label for="address">Address :</label>
+    <input type="text" id="address" name="address" size="40"><br><br>
+
+    <label for="country">Choose country</label>
+    <select name="country" id="country">
+    <option value="0">Please select a country</option>
+    <option value="1">India</option>
+    <option value="2">Canada</option>
+    <option value="3">Japan</option>
+    <option value="4">USA</option>
+    </select><br><br>
+
+    <label for="zip">Zip code :</label>
+    <input type="tel" id="zip" name="zip" size="40" maxlength="6" required><br><br>
+
+    <label for="mailid">Email Address :</label>
+    <input type="email" id="mailid" name="mailid" size="40" required><br><br>
+
+    <label for="gender">Gender :</label>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female" required><br><br>
+
+    <label for="language">Choose languge :</label>
+    <input type="checkbox" id="english" name="english" value="english" required>
+    <label for="english">English</label>
+    <input type="checkbox" id="non" name="non" value="non" required>
+    <label for="non">Non English</label><br><br>
+
+    <label for="about">About :</label>
+    <textarea name="about" id="about" cols="60" rows="10"></textarea><br><br>
+
+    <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
